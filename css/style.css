@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair display";
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(27, 26, 26);
+}
+
+/*  Home */
+
+.bghome {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bghome.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;    
+}
+
+h1:hover {
+    text-shadow: 3px 3px rgb(129, 129, 129);
+}
+
+button {
+    width: 140px;
+    padding: 14px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 6px;
+    background-color: transparent;
+    border: 3px solid white;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    transform: scale(1.1);
+    background-color: rgb(0, 0, 0);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+/* End Home */
+
+/* List Songs */
+
+.bglist{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    transition: .1s;
+}
+
+.container a {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 3px;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.container a span {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+}
+
+.container:hover {
+    transform: scale(1.1);
+    filter:alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.homefixed {
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    z-index: 999;
+    color: rgb(138, 133, 133);
+}
+
+.homefixed:hover {
+    transform: scale(1.1);
+    color: silver;
+}
+
+/* End List Songs */
+
+
+/* samsmith*/
+
+.bgsamsmith {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgsamsmith.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End sam smith */
+
+/* Rosa Linn */
+
+.bgrosalinn {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgrosalinnjpeg.jpeg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Rosa Linn */
+
+/* John Denver */
+
+.bgjohndenver {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgjohndenver.jpeg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End John Denver */
+
+/* Wizz Khalifa*/
+
+.bgwizkhalifa {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgwizkhalifa.jpeg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Wiz Khalifa */
+
+/* Andy Grammer */
+
+.bgandygrammer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/andygramer.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Andy Grammer */
+
+
+/* Ava Max */
+
+.bgavamax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgavamax.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Ava Max */
+
+/* shawn mendes */
+
+.bgshawnmendes {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgshawnmendes.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End shawn mendes */
+
+/* Chordover Street */
+
+.bgchordoverstreet {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgchordoverstreet.jpeg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Chord Over Street */
+
+/* Lukas Graham */
+
+.bglukasgraham {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bglukasgraham.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Lukas Graham */
+
+/* Avenged */
+
+.bgavenged {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgavenged.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Avenged */
+
+/* Arash */
+
+.bgarash {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgarash.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Arash */
+
+/* ArianaGrande */
+
+.bgariana {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/bgarianagrande.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End ArianaGrande */
+
+/* ALilnasX */
+
+.bglilnasx {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/lilnas.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End LilnasX */
+
+/* Alec Benjamin */
+
+.bgalecbenjamin {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/bg/alecbenjamin.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+/* End Alec Benjamin*/
+
+/* Songs */
+
+.judul-lagu, .penyanyi{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+.penyanyi {
+    font-size: 20px;
+}
+
+.next button {
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.next a {
+    text-decoration: none;
+    color: white;
+}
+
+.back button {
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+}
+
+.list button {
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* End Songs */
+
+.footer a {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.footer a:hover {
+    color: rgb(109, 108, 108);
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 500px){
+    .button {
+        display: grid;
+    }
+
+    .about {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        justify-content: center;
+    }   
+}
+
+.container image {
+    width: 200px;
+    height: 200px;
+}
